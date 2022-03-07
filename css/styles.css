@@ -1,0 +1,195 @@
+
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+p {
+    color: #8f8f8f;
+    font-weight: 500;
+}
+h1, h2, h3 {
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+
+/* Conainers and Sections */
+
+
+.container-fluid {
+    padding: 7% 15%;
+}
+.colored-section
+{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section {
+    background-color: white;
+    color: black;
+}
+
+
+/* Headings */
+
+
+#cta h3 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.sectionheader {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Title */
+
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+
+} 
+ 
+.navbar {
+    padding-bottom: 3rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.nav-item {
+padding-left: 36px;
+}
+.nav-link {
+font-size: 1.2rem;
+font-weight: 300;
+}
+
+#iphone1 {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+}
+
+#title .btn {
+margin: 5% 3% 5% 0;
+}
+#title h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+/* Feautures */
+
+
+#features {
+    position: relative;
+ }
+
+#features .fa-solid {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+#features .fa-solid:hover {
+    color: #ff4c68;
+}
+
+#features .col-lg-4 {
+    padding: 5%;
+}
+.feature-title {
+    font-size: 1.5rem;
+}
+#features .container-fluid {
+    padding: 5% 15%;
+}
+
+/* Testimonials */
+
+
+#testimonials {
+  
+    background-color: #ef8172;
+}
+
+#testimonials img {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 13%;
+    margin: 18px 18px 40px;
+}
+
+#testimonials h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+/* Pricing */
+
+
+#pricing .col-lg-4 {
+    padding: 3% 2%;
+
+}
+#pricing h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+#pricing h3{
+    font-size: 1.5rem;
+}
+
+
+/* Call to Action */
+
+#cta .btn {
+    margin: 5% 3% 5% 0;
+    }
+
+/* Footer */
+
+
+.footericons {
+    padding: 0 1% 2% 1%;
+}
+#footer .container-fluid {
+    padding: 3% 15% 2%;
+}
+
+/* Media */
+
+
+@media (max-width:1020px) {
+    #iphone1 {
+        position: static; 
+        transform: rotate(0);
+        width: 70%;
+    }
+    #title .container-fluid {
+        text-align: center;
+    }
+    #testimonials h2 {
+        font-size: 2.5rem;
+    }
+    #cta h3 {
+        font-size: 2.5rem;
+    }
+}
